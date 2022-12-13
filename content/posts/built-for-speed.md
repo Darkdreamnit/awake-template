@@ -3,15 +3,20 @@ title: Built For Speed
 subtitle: Awake is Built to Be Blazing Fast
 category:
   - About Awake
-author: Daniel Kelly
-date: 2019-08-02T04:27:56.800Z
+  - Third Party Integrations
+author: Kevin Pommells
+date: 2022-12-13T21:07:29.005Z
 featureImage: /uploads/marc-olivier-jodoin-nqoinj-ttqm-unsplash.jpg
 ---
+
+
 Awake is fast for a couple different reasons. It both capitalizes on the platform it's built for (JAM Stack) and the framework it's built on (Nuxt.js) as well as includes some intentional optimizations to improve the end user experience when it comes to speed. 
 
 ## The JAM Stack
 
 The JAM stack is a way of building websites that compile down basically to html, css, and javascript and then is served over a CDN. API's are then sprinkled in to add more advanced functionality where needed. Because there is no server, no computations to run, initial response time is like lightening. 
+
+# Built for speed
 
 ## Nuxt.js
 
@@ -36,6 +41,10 @@ Awake comes with Font Awesome 5 support out of the box, so you have a wealth of 
 ## Lazy Loading Like Crazy
 
 In order to speed up both compile time and page load time, basically everything but the header, footer, hero, and main content of the posts are lazy loaded. All grids are lazy loaded with infinite scroll and all images (feature images and those in posts) are also lazy loaded. Comments can be lazy loaded or loaded on click of "Show Comments" button.
+
+```
+
+```
 
 ## Pretty Stinkin' Fast, I'd Say
 
